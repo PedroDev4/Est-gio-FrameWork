@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap%27");
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#albuns {
+  border: 2px solid;
+  border-radius: 9px;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 0px 2px 20px 10px blueviolet;
+}
+
+#fotos {
+  margin-left: 35px;
+}
+
+i {
+  width: 160px;
+  height: 120px;
+  color: red;
+  transition: 0.5s;
+}
+
+i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#albuns:hover {
+  transform: scale(1.2);
+}
+
+#postagens {
+  border: 2px solid;
+  border-radius: 9px;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+  margin: 35px;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 0px 2px 20px 10px blueviolet;
+}
+
+#twitter {
+  height: 125px;
+  margin-top: 45px;
+}
+
+#sign1 {
+  margin-top: 30px;
+}
+
+#postagens:hover {
+  transform: scale(1.2);
+}
+
+#todos {
+  border: 2px solid;
+  border-radius: 9px;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+  margin: 35px;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 0px 2px 20px 10px blueviolet;
+}
+
+#todosimg {
+  height: 125px;
+  margin-top: 45px;
+}
+
+#todos:hover {
+  transform: scale(1.2);
+}
+
+#sign2 {
+  margin-top: 30px;
+}
